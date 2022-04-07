@@ -33,7 +33,7 @@ def decode_msg(message)
                         end
   end
 
-  message_in_ascii
+  puts message_in_ascii
 end
 
-puts decode_msg('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+decode_msg('-..-')
