@@ -21,3 +21,19 @@ def decode_word(word_in_morse)
   word_in_ascii
 end
 
+def decode_msg(message)
+  message_in_ascii = ''
+  last_word = message.split('   ').last
+
+  message.split('   ').each do |word|
+    message_in_ascii += if word == last_word
+                          decode_word(word).to_s
+                        else
+                          "#{decode_word(word)} "
+                        end
+  end
+
+  message_in_ascii
+end
+
+puts decode_msg('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
