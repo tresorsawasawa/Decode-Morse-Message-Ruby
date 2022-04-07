@@ -11,20 +11,13 @@ def decode_char(char)
   dictionary.key(char).to_s
 end
 
-def separator(word)
-  word.split('   ')
-end
+def decode_word(word_in_morse)
+  word_in_ascii = ''
 
-def decode_msg(message)
-  result = ''
-  message.each do |n|
-    word = n.split
-    word.each do |m|
-      result += decode_char(m)
-    end
-    result += ' '
+  word_in_morse.split.each do |char|
+    word_in_ascii += decode_char(char)
   end
-  puts(result)
+
+  word_in_ascii
 end
 
-decode_msg(separator('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'))
