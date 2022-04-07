@@ -1,6 +1,8 @@
-## Decode-Morse-Message-Ruby
+# Morse Message Decoder
 
-> During your vacation at the seaside, time after time you find old bottles with parchment inside. Out of curiosity, you look into the next bottle and see that there is a message written in Morse code. Your curiosity grows even more - maybe you just found the lost treasure of the pirates! However, you are getting tired of decrypting messages manually. Fortunately, you can program in Ruby and you can help yourself by automating this process.
+## Description
+
+> This project is about a short program that helps users to decode any message coded or written from Morse to any Latin based language.  
 
 ## Built With
 
@@ -8,11 +10,10 @@
 
 ## Getting Started
 
-- Clone this repository using git clone 
-
-- cd into the repository cd morse-code
-
-- run files with ruby FILENAME
+To get the content of this project locally you need to run these commands in your terminal.
+Before starting the steps below, be sure you have [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/).
+1. Download the `Zip` or clone it with `git clone https://github.com/tresorsawasawa/Decode-Morse-Message-Ruby`
+2. `cd Decode-Morse-Message-Ruby`
 
 
 ## Author
@@ -32,7 +33,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gegardus/db-from-diagram/issues).
+Feel free to check the [issues page](https://github.com/tresorsawasawa/Decode-Morse-Message-Ruby/issues).
 
 ## Show your support
 
